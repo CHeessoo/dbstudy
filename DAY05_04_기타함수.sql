@@ -12,7 +12,7 @@ SELECT EMPLOYEE_ID
   FROM EMPLOYEES;
 
 
--- 2. 행 번호 구하기
+-- 2. 행 번호 구하기 ROW_NUMBER() OVER  --동점자 처리 없이 번호를 매김
 SELECT EMPLOYEE_ID
      , SALARY
      , ROW_NUMBER() OVER(ORDER BY SALARY DESC)  -- 연봉 내림차순 정렬 후 번호 매기기(동점자 처리 방식 없음)
