@@ -2,7 +2,7 @@
     DML
     1. Data Manipulation Language
     2. 데이터(행, Row)를 조작(삽입, 수정, 삭제)하는 언어이다.
-    3. 트랜잭션 대상이다.(작업이 완료되면 COMMIT, 작업을 취소하려면 ROLLBACK이 필요한다.)
+    3. 트랜잭션 대상이다.(작업이 완료되면 COMMIT, 작업을 취소하려면 ROLLBACK이 필요하다.)
         1) COMMIT   : 작업을 저장한다. COMMIT이 완료된 작업은 ROLLBACK으로 취소할 수 없다.
         2) ROLLBACK : 작업을 취소한다. COMMIT 이후 작업을 취소한다.
     4. 종류

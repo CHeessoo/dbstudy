@@ -14,7 +14,7 @@
     관리자 계정
     1. SYS, SYSTEM 계정이다.
     2. 관리자 계정으로 접속해서 수업에서 사용할 새로운 계정을 만든다.
-    3. 관리자 계정으로 작업사지 않도록 주의한다.
+    3. 관리자 계정으로 작업하지 않도록 주의한다.
 */
 
 /*
@@ -40,7 +40,7 @@ GRANT DBA TO GD;
 */
 
 
-ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;
+ALTER SESSION SET "_ORACLE_SCRIPT" = TRUE;  -- 계정명에 C## 안 쓰게 해줌
 DROP USER GD CASCADE;
 CREATE USER GD IDENTIFIED BY 1111;
 GRANT DBA TO GD;

@@ -72,3 +72,5 @@ SELECT ADD_MONTHS(SYSDATE, 1)   -- 1개월 후
 -- 8. 경과한 개월 수 구하기
 SELECT MONTHS_BETWEEN(SYSDATE, TO_DATE('23/01/01', 'YY/MM/DD'))
   FROM DUAL;
+  
+  
