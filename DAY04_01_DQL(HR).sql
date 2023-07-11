@@ -2,7 +2,7 @@
 SELECT E.FIRST_NAME AS 이름, E.LAST_NAME AS 성
   FROM EMPLOYEES E;
   
--- 2. 사원 테이블에서 DEPARTMENT_ID의 중복을 제거하고 조회하기
+-- 2. 사원 테이블에서 DEPARTMENT_ID의 중복을 제거하고 조회하기 (DISTINCT : 중복제거)
 SELECT DISTINCT DEPARTMENT_ID
   FROM EMPLOYEES;
   
