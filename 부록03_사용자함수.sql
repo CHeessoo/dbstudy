@@ -4,7 +4,7 @@
     2. 사용자 함수 호출은 대부분 SELECT 문에서 이루어진다.
     3. 형식
         CREATE [OR REPLACE] FUNCTION 함수명[(파라미터)]        -- 입력 파라미터만 있음(함수로 전달하는것만 가능)
-        RETURN 반환타입
+        RETURN 반환타입     -- 출력 파라미터를 대신하는 역할
         AS  -- IS도 가능
             [변수 선언]
         BEGIN 
